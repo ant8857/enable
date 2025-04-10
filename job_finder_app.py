@@ -150,7 +150,7 @@ def main():
             st.write(f"**Chatbot:** {response}")
             
             
-            audio_response = text_to_speech(response)
+        
 
 if __name__ == "__main__":
     main()
