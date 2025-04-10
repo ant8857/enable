@@ -1,6 +1,5 @@
 import streamlit as st
 from enum import Enum
-from gtts import gTTS
 import tempfile
 import requests 
 
@@ -73,13 +72,6 @@ def ai_job_suggestion(disability_type, condition):
 def generate_linkedin_url(job_title):
     return f"https://www.linkedin.com/jobs/search/?keywords={job_title.replace(' ', '%20')}"
 
-def text_to_speech(text):
-    """Convert text to speech and return the path to the audio file."""
-    tts = gTTS(text=text, lang='en')
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
-        tts.save(fp.name)
-        return fp.name
-
 def chatbot_response(prompt):
     """Send a prompt to the chatbot and get its response."""
     payload = {
@@ -98,15 +90,7 @@ def chatbot_response(prompt):
         return f"Error communicating with the chatbot: {e}"
 
 def main():
-    st.title("EnAble")
-    from PIL import Image
-    l = 'lespaul.jpg'
-    im = Image.open(l)
-    width, height = im.size
-
-    left, right = 5, width -5
-    top, bottom = height / 3, width / 3
-    
+    st.title("EnAble")  
     tab1, tab2 = st.tabs(["Job Finder", "Chatbot"])
 
    
