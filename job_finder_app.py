@@ -26,42 +26,42 @@ class MentalHealth(Enum):
 
 JOB_MAP = {
     (DisabilityType.PHYSICAL, PhysicalDisability.MOBILITY): [
-        {"title": "Remote Software Developer", "salary_range": "$60k-$120k"},
-        {"title": "Data Entry Specialist", "salary_range": "$30k-$50k"},
-        {"title": "Technical Writer", "salary_range": "$50k-$80k"},
-        {"title": "Customer Support Specialist", "salary_range": "$35k-$55k"},
-        {"title": "Accessibility Tester", "salary_range": "$45k-$85k"}
+        {"title": "Remote Software Developer", "salary_range": "$AED60k-$AED120k"},
+        {"title": "Data Entry Specialist", "salary_range": "$AED30k-$AED50k"},
+        {"title": "Technical Writer", "salary_range": "$AED50k-$AED80k"},
+        {"title": "Customer Support Specialist", "salary_range": "$AED35k-$AED55k"},
+        {"title": "Accessibility Tester", "salary_range": "$AED45k-$AED85k"}
     ],
     (DisabilityType.PHYSICAL, PhysicalDisability.HAND_AMPUTATION): [
-        {"title": "Voice Acting", "salary_range": "$40k-$150k"},
-        {"title": "Audio Editing", "salary_range": "$35k-$75k"},
-        {"title": "Podcast Producer", "salary_range": "$50k-$100k"},
-        {"title": "Accessibility Consultant", "salary_range": "$60k-$110k"}
+        {"title": "Voice Acting", "salary_range": "$AED40k-$AED150k"},
+        {"title": "Audio Editing", "salary_range": "$AED35k-$AED75k"},
+        {"title": "Podcast Producer", "salary_range": "$AED50k-$AED100k"},
+        {"title": "Accessibility Consultant", "salary_range": "$AED60k-$AED110k"}
     ],
     (DisabilityType.PHYSICAL, PhysicalDisability.FEET_AMPUTATION): [
-        {"title": "Remote Software Developer", "salary_range": "$60k-$120k"},
-        {"title": "Data Entry Specialist", "salary_range": "$30k-$50k"},
-        {"title": "Technical Writer", "salary_range": "$50k-$80k"},
-        {"title": "Customer Support Specialist", "salary_range": "$35k-$55k"}
+        {"title": "Remote Software Developer", "salary_range": "$AED60k-$AED120k"},
+        {"title": "Data Entry Specialist", "salary_range": "$AED30k-$AED50k"},
+        {"title": "Technical Writer", "salary_range": "$AED50k-$AED80k"},
+        {"title": "Customer Support Specialist", "salary_range": "$AED35k-$AED55k"}
     ],
     (DisabilityType.PHYSICAL, PhysicalDisability.VISUAL_IMPAIRMENT): [
-        {"title": "Braille Transcriber", "salary_range": "$30k-$60k"},
-        {"title": "Accessibility Consultant", "salary_range": "$60k-$110k"},
-        {"title": "Voice Acting", "salary_range": "$40k-$150k"}
+        {"title": "Braille Transcriber", "salary_range": "$AED30k-$AED60k"},
+        {"title": "Accessibility Consultant", "salary_range": "$AED60k-$AED110k"},
+        {"title": "Voice Acting", "salary_range": "$AED40k-$AED150k"}
     ],
     (DisabilityType.MENTAL, MentalHealth.ANXIETY): [
-        {"title": "Freelance Writing", "salary_range": "$30k-$70k"},
-        {"title": "Data Analysis", "salary_range": "$50k-$90k"},
-        {"title": "Research Assistant", "salary_range": "$40k-$70k"},
-        {"title": "Content Moderator", "salary_range": "$35k-$60k"},
-        {"title": "Online Counseling", "salary_range": "$50k-$100k"}
+        {"title": "Freelance Writing", "salary_range": "$AED30k-$AED70k"},
+        {"title": "Data Analysis", "salary_range": "$AED50k-$AED90k"},
+        {"title": "Research Assistant", "salary_range": "$AED40k-$AED70k"},
+        {"title": "Content Moderator", "salary_range": "$AED35k-$AED60k"},
+        {"title": "Online Counseling", "salary_range": "$AED50k-$AED100k"}
     ],
     (DisabilityType.MENTAL, MentalHealth.DEPRESSION): [
-        {"title": "Virtual Assistant", "salary_range": "$30k-$50k"},
-        {"title": "Online Tutoring", "salary_range": "$35k-$60k"},
-        {"title": "Graphic Design", "salary_range": "$40k-$80k"},
-        {"title": "Social Media Management", "salary_range": "$40k-$70k"},
-        {"title": "Mental Health Advocate", "salary_range": "$35k-$65k"}
+        {"title": "Virtual Assistant", "salary_range": "$AED30k-$AED50k"},
+        {"title": "Online Tutoring", "salary_range": "$AED35k-$AED60k"},
+        {"title": "Graphic Design", "salary_range": "$AED40k-$AED80k"},
+        {"title": "Social Media Management", "salary_range": "$AED40k-$AED70k"},
+        {"title": "Mental Health Advocate", "salary_range": "$AED35k-$AED65k"}
     ],
 }
 
