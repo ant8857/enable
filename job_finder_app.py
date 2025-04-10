@@ -120,8 +120,7 @@ def main():
                 
                 if suggestions:
                     st.subheader("Job Suggestions with Salary Ranges and LinkedIn Search Links")
-                    intro_audio = text_to_speech("Here are some job suggestions based on your profile.")
-                    st.audio(intro_audio)
+                   
                     
                     for job in suggestions:
                         linkedin_url = generate_linkedin_url(job["title"])
@@ -134,14 +133,12 @@ def main():
                           **Salary Range**: {job['salary_range']}  
                           [🔍 Search LinkedIn Jobs]({linkedin_url})
                         """)
-                        st.audio(text_to_speech(job_details))
                 else:
                     no_job_message = (
                         f"No job suggestions available for the selected criteria."
                     )
                     st.info(no_job_message)
-                    st.audio(text_to_speech(no_job_message))
-
+                    
     
     with tab2:
         st.header("Chatbot Assistance")
@@ -154,7 +151,6 @@ def main():
             
             
             audio_response = text_to_speech(response)
-            st.audio(audio_response)
 
 if __name__ == "__main__":
     main()
