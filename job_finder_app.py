@@ -90,7 +90,7 @@ def chatbot_response(prompt):
         return f"Error communicating with the chatbot: {e}"
 
 def main():
-    st.title("EnAble")  
+    st.title("ENABLE")  
     tab1, tab2 = st.tabs(["Job Finder", "Chatbot"])
 
    
